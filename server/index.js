@@ -16,7 +16,7 @@ app.use('/posts', postRoutes);
 app.use('/users', userRoutes);
 
 
-const CONNECTION_URL = '';
+const CONNECTION_URL = ''; // empty for security
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
