@@ -16,7 +16,7 @@ app.use('/posts', postRoutes);
 app.use('/users', userRoutes);
 
 
-const CONNECTION_URL = ''; // empty for security
+const CONNECTION_URL = 'mongodb+srv://cs160astro:cs160astr0@cluster0.2npw1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'; // empty for security
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
