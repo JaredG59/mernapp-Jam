@@ -1,8 +1,8 @@
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 
-import UserModal from "../../database/User.js";
-import UserMessage from '../../database/userMessage.js';
+import UserModal from "../models/User.js";
+import UserMessage from '../models/userMessage.js';
 
 const secret = 'test';
 
